@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  comment_time: 2016-12-10 17:02:29
+  text: MyString
+  score: 1
+  user: one
+
+two:
+  comment_time: 2016-12-10 17:02:29
+  text: MyString
+  score: 1
+  user: two
