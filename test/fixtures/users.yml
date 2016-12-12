@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_type: MyString
+  wechat_id: MyString
+  wechat_name: MyString
+  avatar: MyString
+  province: MyString
+  city: MyString
+  credit: 1
+
+two:
+  user_type: MyString
+  wechat_id: MyString
+  wechat_name: MyString
+  avatar: MyString
+  province: MyString
+  city: MyString
+  credit: 1
