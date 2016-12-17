@@ -4,3 +4,11 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+
+desc 'This is first rake task'
+
+task :show_path do
+
+  puts `ls -lh`
+
+end
