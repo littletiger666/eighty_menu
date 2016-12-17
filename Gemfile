@@ -34,9 +34,13 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 
-# wechat
+# wechat login
 gem 'omniauth'
 gem 'omniauth-wechat-oauth2'
+
+# wechat js/ui
+gem 'weixin_authorize'
+gem 'weui-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
