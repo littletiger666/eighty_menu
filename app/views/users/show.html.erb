@@ -1,0 +1,20 @@
+<p>
+<strong> Login Successfully! </strong>
+</p>
+<% if @user.avatar %>
+  <%= image_tag(@user.avatar, width: 200, height: 200) %>
+<% else %>
+  <p>
+  <strong>Avatar:</strong> No avatar
+  </p>
+<% end %>
+<p>
+<strong>Name:</strong> <%= @user.wechat_name %>
+  </p>
+<p>
+  <strong>Province:</strong> <%= @user.province %>
+</p>
+
+<p>
+  <strong>City:</strong> <%= @user.city %>
+</p>
